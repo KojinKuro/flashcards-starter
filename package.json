@@ -1,25 +1,21 @@
 {
-  "name": "flashcards-starter",
-  "version": "1.0.0",
-  "description": "OOP Flashcards Application",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "keywords": [
-    "javascript",
-    "testing",
-    "data manipulation"
-  ],
-  "author": "Turing School of Software & Design",
-  "license": "ISC",
-  "devDependencies": {
-    "@biomejs/biome": "1.6.1",
-    "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "mocha": "^10.3.0"
-  },
-  "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+	"name": "flashcards-starter",
+	"version": "1.0.0",
+	"description": "OOP Flashcards Application",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"keywords": ["javascript", "testing", "data manipulation"],
+	"author": "Turing School of Software & Design",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "1.6.1",
+		"chai": "^4.2.0",
+		"eslint": "^5.16.0",
+		"mocha": "^10.3.0"
+	},
+	"dependencies": {
+		"inquirer": "^6.3.1"
+	}
 }
