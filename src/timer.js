@@ -1,9 +1,9 @@
-function startTimer() {
-  return Date.now();
+function startTimer(startTime) {
+  return startTime;
 }
 
-function endTimer(timer) {
-  return Date.now() - timer;
+function calculateTime(startTime, endTime) {
+  return endTime - startTime;
 }
 
 function convertTimerToString(timeMS) {
@@ -34,4 +34,4 @@ function convertTimerToString(timeMS) {
   return displayString;
 }
 
-module.exports = { startTimer, endTimer, convertTimerToString };
+module.exports = { startTimer, calculateTime, convertTimerToString };
