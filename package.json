@@ -14,6 +14,7 @@
   "author": "Turing School of Software & Design",
   "license": "ISC",
   "devDependencies": {
+    "@biomejs/biome": "1.6.1",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "mocha": "^10.3.0"
